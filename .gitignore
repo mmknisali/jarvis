@@ -10,6 +10,14 @@ tests/performance/reports/
 !.claude/launch.json
 !.claude/skills/
 
+# Devenv
+.devenv/
+.direnv/
+devenv.local/
+result/
+result-*/
+*.lock # except devenv.lock which should be committed
+
 # Release artifacts
 release_output.log
 node_modules/
